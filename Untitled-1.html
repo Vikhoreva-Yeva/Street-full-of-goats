@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streets Full of Goats</title>
+  
+  <link rel="stylesheet" href="goats.css">
+  <script src="js.js" defer></script>
+</head>
+<body>
+
+<div class="site-title">
+  <h1>Streets Full of Goats</h1>
+</div>
+
+<div class="scene">
+  <a class="object" id="obj-pavuk" href="#pavuk">
+    <video src="pavuk photo/Pavuk.webm" autoplay loop muted playsinline></video>
+    <span class="obj-label">Різдвяний Павук</span>
+  </a>
+
+  <a class="object" id="obj-stars" href="#stars">
+    <video src="pavuk photo/zirka0001-0180.webm" autoplay loop muted playsinline></video>
+    <span class="obj-label">Різдвяна Зірка</span>
+  </a>
+
+  <div class="object" id="obj-stars2">
+    <video src="pavuk photo/Zirka20001-0240.webm" autoplay loop muted playsinline></video>
+  </div>
+
+  <div class="object" id="obj-stars3">
+    <video src="pavuk photo/zirka30001-0160.webm" autoplay loop muted playsinline></video>
+  </div>
+</div>
+
+<div class="popup" id="stars">
+  <div class="popup-inner">
+    <a class="popup-close" href="#">✕</a>
+    
+    <div class="gallery">
+      <input type="radio" name="stars-tab" id="s-a1" checked>
+      <input type="radio" name="stars-tab" id="s-a2">
+      <input type="radio" name="stars-tab" id="s-a3">
+      <input type="radio" name="stars-tab" id="s-p1">
+      <input type="radio" name="stars-tab" id="s-p2">
+
+      <div class="slides">
+        <div class="slide" id="slide-s-a1">
+          <video src="pavuk photo/zirka0001-0180.webm" autoplay loop muted playsinline></video>
+        </div>
+        <div class="slide" id="slide-s-a2">
+          <video src="pavuk photo/Zirka20001-0240.webm" autoplay loop muted playsinline></video>
+        </div>
+        <div class="slide" id="slide-s-a3">
+          <video src="pavuk photo/zirka30001-0160.webm" autoplay loop muted playsinline></video>
+        </div>
+        <div class="slide" id="slide-s-p1">
+          <img src="pavuk photo/Marko and zirka.webp" alt="1905 Photo"> 
+        </div>
+        <div class="slide" id="slide-s-p2">
+          <img src="pavuk photo/Sophia.webp" alt="parade"> 
+        </div>
+      </div>
+
+      <div class="tabs">
+        <label for="s-a1">Animation 1</label>
+        <label for="s-a2">Animation 2</label>
+        <label for="s-a3">Animation 3</label>
+        <label for="s-p1">1905</label>
+        <label for="s-p2">Christmas parade</label>
+      </div>
+    </div>
+
+    <div class="popup-text">
+      <div class="popup-name">Zirka</div>
+      
+      <div class="popup-story" id="story-s-default">
+        <p>Christmas star - Today’s stars are made from a variety of materials: from wood (usually plywood) and corrugated paper to metal. Once upon a time, it was just a tree: branches, twigs and vines, decorated with pine twigs.</p>
+        <p>They made stars from woods such as oak, pine and ash – in other words, those that grow in Ukraine. Typically, the object was made from an ordinary sieve, to which “rays” (8, 9, 10, 12 or 16) were attached; it was then covered with multicoloured oil-soaked paper, and decorated with foil, ribbons and tassels. Pictures depicting religious scenes could be attached to the side panels.</p>
+        <p>The stars vary not only in material but also in shape and size; some are symmetrical and others asymmetrical. The person who carries the star is called the “zvizdar” (star-bearer). He is one of the first to enter the courtyard or the house, is often the leader of the entire nativity play, and is one of the regular characters in most Ukrainian vertep performances.</p>
+      </div>
+
+      <div class="popup-story" id="story-s-p1" style="display: none;">
+         <p> It's the winter of 1905, and three young friends are making their way 
+        through the village of Serhiivka in the Donetsk region, carrying a Christmas 
+        star as part of a traditional holiday custom, not in western Ukraine, but in the 
+        east. The boy standing in the middle is Marko Zaliznyak, and remarkably, 
+        he took this photo himself by rigging a piece of string to the camera's shutter 
+        release.</p><p> Years later, this self-taught photographer would become historically 
+        significant for a far more somber reason: his images documented some of the most 
+        devastating events of the 1930s, including the Holodomor famine, the forced 
+        collectivization of farms, and the violent campaign to strip so-called "kulaks" -
+         wealthier peasants — of their land and property.</p>
+      </div>
+
+      <div class="popup-story" id="story-s-p2" style="display: none;">
+         <p>Photo of Christmas Parade in Lviv, taken by <a href="https://www.instagram.com/ohsoyka/" target="_blank"> Sofiia Soliar.</a>
+          From the article by <a href="https://www.ukrainer.net/maysternia-zvizd/" target="_blank"> Ukraїner.</a>
+         </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="popup" id="pavuk">
+  <div class="popup-inner">
+    <a class="popup-close" href="#">✕</a>
+    
+    <div class="gallery">
+      <input type="radio" name="pavuk-tab" id="p-a1" checked>
+      <input type="radio" name="pavuk-tab" id="p-p1">
+      <input type="radio" name="pavuk-tab" id="p-p2">
+      <input type="radio" name="pavuk-tab" id="p-p3">
+
+      <div class="slides">
+        <div class="slide" id="slide-p-a1">
+          <video src="pavuk photo/Sway0001-0120.webm" autoplay loop muted playsinline></video>
+        </div>
+        <div class="slide" id="slide-p-p1">
+          <img src="pavuk photo/pavuk maryna.jpg" alt="Pavuk Maryna"> 
+        </div>
+        <div class="slide" id="slide-p-p2">
+          <img src="pavuk photo/Yeva pavuk/DSCF0477.jpg" alt="Pavuk Maryna"> 
+        </div>
+        <div class="slide" id="slide-p-p3">
+         <img src="pavuk photo/Honchar.jpg" alt="Pavuk Maryna"> 
+
+        </div>
+      </div>
+
+      <div class="tabs">
+        <label for="p-a1">Pavuk</label>
+        <label for="p-p1">Photo 1</label>
+        <label for="p-p2">Photo 2</label>
+        <label for="p-p3">Photo 3</label>
+      </div>
+    </div>
+
+    <div class="popup-text">
+      <div class="popup-name">Rizdvyanyi Pavuk</div>
+      <div class="popup-story" id="story-p-default">
+        <p>(Christmas Spider) - “The Spider” consists of straws that form an octahedron, with smaller octahedrons suspended from its vertices. Due to the lightness of the structure, it is constantly set in motion by air flows.</p>
+        <p>On Christmas Eve, the “spider” was hung from the central beam of the house. Similar decorations, known as himmel, are found in northern Europe, particularly among the Swedes.</p>
+        <p>Made from reeds or straw and decorated with pieces of wood, eggshells, bird feathers and yarn, they consist of 12 parts, symbolising the 12 months.</p>
+      </div>
+
+      <div class="popup-story" id="story-p-p3" style="display: none;">
+         <p>The spider exhibition “Ukrainian Universe” ran at the  <a href="https://honchar.org.ua/en" target="_blank">Honchar Museum</a>  until 21 January 2015. The pieces were created by craftswomen from the Kyiv region.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
